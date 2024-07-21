@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 import axios from "axios";
 
 const app = express();
-const port = const port = process.env.PORT || 3000; 
+const port = process.env.PORT || 3000; 
 
 app.set("view engine", "ejs");
 app.set("views", "views");
