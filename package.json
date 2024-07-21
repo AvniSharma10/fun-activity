@@ -8,8 +8,8 @@
     "npm": ">= 6.0.0"
   },
   "scripts": {
-    "start": "node backend/index.js",
-    "dev": "nodemon backend/index.js",  
+    "start": "node index.js",
+    "dev": "nodemon index.js",  
     "test": "echo \"No test specified\" && exit 0"  
   },
   "description": "An Express application using EJS for templating.",
